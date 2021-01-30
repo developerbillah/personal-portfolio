@@ -1,0 +1,156 @@
+
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+}
+
+
+h1{
+    font-size: 60px;
+    margin:0px;
+	font-family:oswald;
+	text-transform:uppercase;
+    color: #202428; 
+}
+h2{
+    font-size: 40px;
+    margin:0px;
+	font-family:oswald;
+	text-transform:uppercase;
+    color: #363958; 
+}
+
+h3{
+	font-size: 30px;
+	font-family:oswald;
+	color: #363958
+}
+
+p {
+    color: #333;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+
+section{display:block;overflow:hidden;}
+
+span{color:#FF8367}
+
+
+.text-solid{color:#363958}
+
+.one-half{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.one-half img{width: 100%;}
+
+
+
+.text-center{
+    text-align:center
+}
+
+.menu ul{list-style:none;float:right;padding-right: 5%}
+.menu ul li{float:left}
+.menu ul li a{text-decoration:none;display:block;padding: 10px 20px;color: #333;font-weight:700}
+
+
+.top-padding{
+    padding-top:20%;
+}
+
+.link-button {
+    background-image: linear-gradient(45deg,lightSalmon, tomato);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 30px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.about{
+   
+}
+
+.latest-work{
+	background: #F8F9FC;
+	padding: 130px 0px;
+	margin-top: 80px;
+}
+
+.single-work{
+    width:30%;
+    float: left;
+    margin-left: 2%;
+    padding-left: 1%;
+    margin-top: 57px;
+    background: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #ddd;
+}
+
+.single-work img{width: 100%;}
+
+.inquery-area{
+	padding: 7% 20%;
+}
+
+.inquiry {
+    background: url(./img/button_bg.png);
+    background-size: cover;
+    padding: 67px 30px;
+    display: block;
+    overflow: hidden;
+}
+
+.left-text h1 {
+    display: inline-block;
+    float: left;
+    width: 80%;
+	color:#fff;
+}
+.right-button {
+    float: right;
+    width: 20%;
+}
+
+.social-connect{text-align:center;margin-top:10%}
+.social-connect h4{text-transform:uppercase;color: #696871;font-weight:500;font-size:30px;margin:0}
+.social-connect a img{width: 5%;margin: 2%;}
+
+
+.my-service{
+    background: url('./img/biography-bg.png');
+    background-size: cover;
+	padding: 80px 0px;
+}
+.single-service{
+    width:20%;
+    float: left;
+    margin-left: 1%;
+    padding: 5% 2%;
+    background: white;
+    box-shadow: 0 0 8px grey;
+	border-radius: 15px;
+}
+
+.single-service img {
+    width: 50%;
+}
+
+.my-service h2{
+    margin-bottom: 30px;
+}
+
+footer p{
+    text-align: center;
+}
